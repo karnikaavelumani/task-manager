@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Task Manager 📌
 
-## Getting Started
+## Description
 
-First, run the development server:
+"Task Manager" is a Trello clone built with Next.js that helps you manage your TODOs. This application allows users to create, edit, delete, and move tasks across different columns representing various stages of progress. With an integrated analytics component, users can visually track their progress with pie and bar charts.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Task Management**: Create, edit, delete, and move tasks between different columns (To Do, In Progress, Done).
+- **Data Analytics**: Visual representation of tasks with pie and bar charts that display task completion and distribution.
+- **Drag and Drop**: Intuitive drag-and-drop functionality to rearrange tasks.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Frontend**: Next.js, React
+- **Styling**: Tailwind CSS
+- **State Management**: React Hooks
+- **Charts**: Custom implementation without external libraries
 
-## Learn More
+## Usage
 
-To learn more about Next.js, take a look at the following resources:
+- **Adding Tasks**: Click on the "+" button in any column to add a new task.
+- **Editing Tasks**: Click the edit icon next to a task to change its name.
+- **Deleting Tasks**: Click the delete icon next to a task to remove it.
+- **Moving Tasks**: Drag and drop tasks between columns to update their status.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Future Enhancements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- User authentication to save and retrieve tasks.
+- Backend integration for persistent data storage.
+- Improved analytics dashboard with additional metrics.
+- Enhanced drag-and-drop functionality with animations.
+- Responsive design for all viewports
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![alt text](image.png)
+
+---
+> [!WARNING]  
+> This project is currently incomplete and requires further developement!
+
+Created with 💖 by Karnikaa Velumani
