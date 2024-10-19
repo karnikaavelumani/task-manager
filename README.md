@@ -36,7 +36,7 @@
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
-![alt text](image.png)
+![Screenshot of website displaying TODOs required to finish](screenshot.png)
 
 ---
 > [!WARNING]  
